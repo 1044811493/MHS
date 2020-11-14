@@ -1,3 +1,7 @@
+require("Script/系统处理类/hashMap类")
+require("Script/系统处理类/数据库连接")
+evn,conn = 获取连接();
+
 
 __S服务 = require("Script/ggeserver")()
 __S服务:置缓冲区大小(4096)
@@ -179,14 +183,12 @@ require("Script/系统处理类/共用")
 助战处理类=require("Script/角色处理类/助战系统")
 孩子处理类=require("Script/角色处理类/孩子系统")
 商城神兽=require("Script/数据中心/商城神兽")
-require("Script/系统处理类/hashMap类")
 
-require("Script/系统处理类/数据库连接")
 
-local evn,conn = 获取连接();
-local str = "select *   from people  where name ='中文'"
-local result,errorString = 查询数据(conn,str)
-关闭连接(evn,conn)
+
+-- local str = "select *   from people  where name ='中文'"
+-- local result,errorString = 查询数据(conn,str)
+--关闭连接(evn,conn)
 
 商店处理类:刷新珍品()
 商店处理类:刷新跑商商品买入价格()
@@ -1081,3 +1083,32 @@ if 服务器名称 ~= "本地测试" then
 end
 
 任务处理类:开启游戏比赛()
+
+
+-- local queryStr="select wd from project_mhxy_daoju_zhubiao "
+
+-- local result ,errorString = 查询数据(conn,queryStr)
+-- print("共计有"..#result.."条物品")
+
+-- for i=1,#result do
+--   print("开始处理第"..i.."条数据")
+--   local wds = 取物品(result[i].wd)
+--   for n=1,22 do
+--     if wds[n]~=nil then
+--       if n ==7  and type(wds[7]) ~= "number" then
+--         --table 转成string
+--         local juese = ""
+--         for j=1,#wds[n] do
+--           juese=juese..wds[n][j]..","
+--         end
+--         local updateStr = "update project_mhxy_daoju_zhubiao set `"..n.."` = '"..juese.."' where wd = '"..result[i].wd.."'"
+--         更新数据(conn,updateStr)
+--         print("处理"..result[i].wd.."的第"..n.."个字段成功")
+--       else
+--         local updateStr = "update project_mhxy_daoju_zhubiao set `"..n.."` = '"..wds[n].."' where wd = '"..result[i].wd.."'"
+--         更新数据(conn,updateStr)
+--         print("处理"..result[i].wd.."的第"..n.."个字段成功")
+--       end
+--     end
+--   end
+-- end

@@ -14,17 +14,34 @@ function 系统处理类:数据处理(id,序号,内容)
   if 序号==1 or 序号==1.1 or 序号==1.2 then
     self:账号验证(id,序号,内容)
   elseif 序号==2 then -- 申请创建角色
-    if f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
-      发送数据(id,3)
+    --1、判断是否有账号
+    --2、判断角色数据量是否大于等于6个
+    --3、创建逻辑
+    local result ,errorString =  获取账号(内容.账号)
+    if #result == 0 then
+         发送数据(id,3)
     else
-      self.临时文件=读入文件([[data/]]..内容.账号..[[/信息.txt]])
-      self.写入信息=table.loadstring(self.临时文件)
-      if #self.写入信息>=6 then
-        发送数据(id,7,"#Y/您无法再创建更多的角色了")
-        return 0
-      end
-      发送数据(id,3)
+        local rowguid = result[1].rowguid
+        result ,errorString =  获取账号角色(rowguid)
+        if #result >=6 then
+          发送数据(id,7,"#Y/您无法再创建更多的角色了")
+          return 0
+        else
+          发送数据(id,3)
+        end
+
     end
+     -- if f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
+    --   发送数据(id,3)
+    -- else
+    --   self.临时文件=读入文件([[data/]]..内容.账号..[[/信息.txt]])
+    --   self.写入信息=table.loadstring(self.临时文件)
+    --   if #self.写入信息>=6 then
+    --     发送数据(id,7,"#Y/您无法再创建更多的角色了")
+    --     return 0
+    --   end
+    --   发送数据(id,3)
+    -- end
   elseif 序号==3 then --创建新角色
     for n=1,#名称数据 do
       if 名称数据[n].名称==内容.名称 then
@@ -1806,115 +1823,148 @@ end
 --此处进行账号验证
 
 function 系统处理类:账号验证(id,序号,内容)
-  local acc = 内容.账号
-    local luasql = require "luasql.mysql"
-    local env = luasql.mysql(); --创建环境对象
-    --连接数据库
-    local conn = env:connect('mhsj','mhsj','mhsj','118.24.118.15','3306')
-    --设置数据库的编码格式
-    conn:execute"SET NAMES GB2312"
-   local cur = assert(conn:execute("select account,password from  project_mhxy_account where account =  '"..acc.."'"));
-    local row = cur:fetch ({}, "a")
-    if row==nil then
-      发送数据(id,7,"#Y该账户未被注册！")
+  if conn == nil then
+    if f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","封禁")=="1" then  --账号是否异常
+      发送数据(id,7,"#R该账号已经被禁止登录游戏")
       return
-    end
-    while row do
-      print(string.format("account: %s, password: %s", row.account, row.password ))
-      if row.password ~= 内容.密码 then
+    elseif f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
+      发送数据(id,7,"#Y该账户未被注册！")
+    elseif 序号 == 1.2 and f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","管理")~="1" and 内容.账号 ~= "zydasl" then
+      发送数据(id,7,"#Y该账户没有管理权限！")
+    else
+      local 密码=f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","密码")
+      if 密码~=内容.密码 then
         发送数据(id,7,"#Y您输入的密码不正确！")
         return
       end
-      row = cur:fetch (row, "a") -- reusing the table of results
-    end
-    self:取角色选择信息(id,内容.账号)
-  -- if f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","封禁")=="1" then  --账号是否异常
-  --   发送数据(id,7,"#R该账号已经被禁止登录游戏")
-  --   return
-  -- elseif f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
-  --   发送数据(id,7,"#Y该账户未被注册！")
-  -- elseif 序号 == 1.2 and f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","管理")~="1" and 内容.账号 ~= "zydasl" then
-  --   发送数据(id,7,"#Y该账户没有管理权限！")
-  -- else
-  --   local 密码=f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","密码")
-  --   if 密码~=内容.密码 then
-  --     发送数据(id,7,"#Y您输入的密码不正确！")
-  --     return
-  --   end
-  --   if 序号 ~= 1.1 and 序号 ~= 1.2 then
-  --     self:取角色选择信息(id,内容.账号)
-  --   elseif 序号 == 1.2 then
-  --     发送数据(id,1.1)
-  --   end
-  -- end
+      if 序号 ~= 1.1 and 序号 ~= 1.2 then
+        self:取角色选择信息(id,内容.账号)
+      elseif 序号 == 1.2 then
+        发送数据(id,1.1)
+      end
+     end
+  else
+
+      local result ,errorString =  获取账号(内容.账号)
+      if #result==0 then
+        发送数据(id,7,"#Y该账户未被注册！")
+        return
+      end
+      if result[1].password ~= 内容.密码 then
+        发送数据(id,7,"#Y您输入的密码不正确！")
+        return
+      end
+      self:取角色选择信息(id,内容.账号)
+   end
 end
 
 function 系统处理类:创建账号(id,序号,内容)
-  if f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","封禁")=="1" then  --账号是否异常
-    发送数据(id,7,"#R该账号已经被禁止登录游戏")
-    return
-  elseif f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
-    os.execute("md "..[[data\]]..内容.账号)
-    local file =io.open([[data\]]..内容.账号..[[\信息.txt]],"w")
-    file:write([[do local ret={} return ret end]])
-    file:close()
-    local file =io.open([[data\]]..内容.账号..[[\账号信息.txt]],"w")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","密码",内容.密码)
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","仙玉","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","点数","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","管理","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","安全码","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","创建时间",时间转换(os.time()))
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","创建ip",内容.ip)
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","银子","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","储备","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","推广礼包","0")
-    f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","测试礼包","0")
-    写出文件([[data/]]..内容.账号..[[/消费记录.txt]],"日志创建")
-    发送数据(id,7,"#Y账号注册成功！！！")
-    发送数据(id,73)
-  else
-    发送数据(id,7,"#Y该账户已被注册！")
-    return
-  end
+      if conn == nil  then
+        if f函数.读配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","封禁")=="1" then  --账号是否异常
+          发送数据(id,7,"#R该账号已经被禁止登录游戏")
+          return
+        elseif f函数.文件是否存在([[data/]]..内容.账号)==false then  --未创建存档
+          os.execute("md "..[[data\]]..内容.账号)
+          local file =io.open([[data\]]..内容.账号..[[\信息.txt]],"w")
+          file:write([[do local ret={} return ret end]])
+          file:close()
+          local file =io.open([[data\]]..内容.账号..[[\账号信息.txt]],"w")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","密码",内容.密码)
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","仙玉","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","点数","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","管理","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","安全码","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","创建时间",时间转换(os.time()))
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","创建ip",内容.ip)
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","银子","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","储备","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","推广礼包","0")
+          f函数.写配置(程序目录..[[data\]]..内容.账号..[[\账号信息.txt]],"账号配置","测试礼包","0")
+          写出文件([[data/]]..内容.账号..[[/消费记录.txt]],"日志创建")
+          发送数据(id,7,"#Y账号注册成功！！！")
+          发送数据(id,73)
+        else
+          发送数据(id,7,"#Y该账户已被注册！")
+          return
+        end
+      else
+       local result ,errorString =  获取账号(内容.账号)
+       if #result==0 then
+          --无账号
+          local  insertStr ="INSERT INTO mhsj.project_mhxy_account(rowguid, account, password, ip_address) VALUES(replace(uuid(),'-',''), '"..内容.账号.."', '"..内容.密码.."', '"..内容.ip.."')"
+          local status,errorString = 写数据(conn,insertStr)
+          if errorString  == nil then
+            发送数据(id,7,"#Y账号注册成功！！！")
+            发送数据(id,73)
+          else
+            发送数据(id,7,"#Y网络开小差了，注册失败！！！")
+            return
+          end
+        else
+          --提示有账号
+          发送数据(id,7,"#Y该账户已被注册！")
+          return
+        end
+      end
+
 end
 
 function 系统处理类:取角色选择信息(id,账号)
-  self.临时文件=读入文件([[data/]]..账号..[[/信息.txt]])
-  self.写入信息=table.loadstring(self.临时文件)
-  self.发送数据={}
-  for n=1,#self.写入信息 do
-    local 武器数据={名称="",级别限制=0,子类=0}
-    local 锦衣数据
-    local 光环数据
-    local 足迹数据
-    self.读取文件=读入文件([[data/]]..账号..[[/]]..self.写入信息[n]..[[/角色.txt]])
-    self.还原数据=table.loadstring(self.读取文件)
-    if self.还原数据.装备[3]~=nil or self.还原数据.锦衣~=nil then
-      local 临时文件=读入文件([[data/]]..账号..[[/]]..self.写入信息[n]..[[/道具.txt]])
-      local 临时道具=table.loadstring(临时文件)
-      if self.还原数据.装备[3]~=nil then
-        武器数据=临时道具[self.还原数据.装备[3]]
+  if conn ==  nil  then
+      self.临时文件=读入文件([[data/]]..账号..[[/信息.txt]])
+      self.写入信息=table.loadstring(self.临时文件)
+      self.发送数据={}
+      for n=1,#self.写入信息 do
+        local 武器数据={名称="",级别限制=0,子类=0}
+        local 锦衣数据
+        local 光环数据
+        local 足迹数据
+        self.读取文件=读入文件([[data/]]..账号..[[/]]..self.写入信息[n]..[[/角色.txt]])
+        self.还原数据=table.loadstring(self.读取文件)
+        if self.还原数据.装备[3]~=nil or self.还原数据.锦衣~=nil then
+          local 临时文件=读入文件([[data/]]..账号..[[/]]..self.写入信息[n]..[[/道具.txt]])
+          local 临时道具=table.loadstring(临时文件)
+          if self.还原数据.装备[3]~=nil then
+            武器数据=临时道具[self.还原数据.装备[3]]
+          end
+          if self.还原数据.锦衣~=nil then
+              if self.还原数据.锦衣[1] ~= nil then
+                锦衣数据 = 临时道具[self.还原数据.锦衣[1]]
+              end
+              if self.还原数据.锦衣[2] ~= nil then
+                光环数据 = 临时道具[self.还原数据.锦衣[2]]
+              end
+              if self.还原数据.锦衣[4] ~= nil then
+                足迹数据 = 临时道具[self.还原数据.锦衣[4]]
+              end
+          end
+        end
+        self.发送数据[n]={种族=self.还原数据.种族,锦衣数据=锦衣数据,光环数据=光环数据,足迹数据=足迹数据,名称=self.还原数据.名称,等级=self.还原数据.等级,染色方案=self.还原数据.染色方案,染色组=self.还原数据.染色组,造型=self.还原数据.造型,武器数据=武器数据,门派=self.还原数据.门派,id=self.还原数据.数字id}
       end
-      if self.还原数据.锦衣~=nil then
-          if self.还原数据.锦衣[1] ~= nil then
-            锦衣数据 = 临时道具[self.还原数据.锦衣[1]]
-          end
-          if self.还原数据.锦衣[2] ~= nil then
-            光环数据 = 临时道具[self.还原数据.锦衣[2]]
-          end
-          if self.还原数据.锦衣[4] ~= nil then
-            足迹数据 = 临时道具[self.还原数据.锦衣[4]]
-          end
+      发送数据(id,4,self.发送数据)
+      self.读取文件=nil
+      self.还原数据=nil
+      self.临时文件=nil
+      self.写入信息=nil
+  else
+
+    local result ,errorString =  获取账号角色1(账号)
+    self.发送数据={}
+    if #result ~= 0 then
+      --有角色添加数据
+      for n=1,#result do
+        local 武器数据={名称="",级别限制=0,子类=0}
+        local 锦衣数据
+        local 光环数据
+        local 足迹数据
+        local rowguid = result[n].rowguid
+        local resultJs ,errorString =  获取账号角色(rowguid)
+        table.print(resultJs)
+        self.发送数据[n]={种族=resultJs[1].zhongzu,锦衣数据=锦衣数据,光环数据=光环数据,足迹数据=足迹数据,名称=resultJs[1].mingcheng,等级=resultJs[1].dengji,染色方案=0,染色组={0,0,0},造型=resultJs[1].zaoxing,武器数据=武器数据,门派=resultJs[1].menpai,id=resultJs[1].shuziid}
       end
     end
-    self.发送数据[n]={种族=self.还原数据.种族,锦衣数据=锦衣数据,光环数据=光环数据,足迹数据=足迹数据,名称=self.还原数据.名称,等级=self.还原数据.等级,染色方案=self.还原数据.染色方案,染色组=self.还原数据.染色组,造型=self.还原数据.造型,武器数据=武器数据,门派=self.还原数据.门派,id=self.还原数据.数字id}
+      发送数据(id,4,self.发送数据)
   end
-  发送数据(id,4,self.发送数据)
-  self.读取文件=nil
-  self.还原数据=nil
-  self.临时文件=nil
-  self.写入信息=nil
 end
 
 function 系统处理类:设置传说物品(id)
