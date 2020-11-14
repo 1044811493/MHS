@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"服务端.sublime-project"
+			],
+			"folder_exclude_patterns":
+			[
+				"compile"
+			],
+			"path": "."
+		},
+		{
+			"path": "../../Core"
+		}
+	]
+}

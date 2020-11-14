@@ -1,0 +1,3652 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"else",
+				"else"
+			],
+			[
+				"幽冥鬼",
+				"幽冥鬼卒	(战斗准备类.lua)"
+			],
+			[
+				"找到",
+				"找到餐风饮露了"
+			],
+			[
+				"找到了",
+				"找到药引了吗？	(对话内容.lua)"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"send",
+				"sendBotBooth	(BoothBot.lua)"
+			],
+			[
+				"弱点",
+				"弱点土	(战斗处理类.lua)"
+			],
+			[
+				"开启帮派",
+				"开启帮派竞赛进场	(共用.lua)"
+			],
+			[
+				"tab",
+				"table.sort	table.sort"
+			],
+			[
+				"ta",
+				"table.sort	table.sort"
+			],
+			[
+				"路过",
+				"路过，随便看看"
+			],
+			[
+				"超级",
+				"超级神牛"
+			],
+			[
+				"邪恶年兽",
+				"邪恶年兽·魔"
+			],
+			[
+				"邪恶",
+				"邪恶年兽·魔	(任务处理类.lua)"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"终于",
+				"终于可以出来透透气了，冲啊"
+			],
+			[
+				"for",
+				"for	for i=1,10"
+			],
+			[
+				"男人_",
+				"男人_马副将"
+			],
+			[
+				"我来帮忙",
+				"我要来帮忙"
+			],
+			[
+				"法术伤害",
+				"法术伤害"
+			],
+			[
+				"取特殊",
+				"取特殊要诀1"
+			],
+			[
+				"一级",
+				"一级未激活符石"
+			],
+			[
+				"上古",
+				"上古锻造图策"
+			],
+			[
+				"取",
+				"取随机数"
+			],
+			[
+				"侠义任务",
+				"侠义任务物品	(对话处理.lua)"
+			],
+			[
+				"老唐定制",
+				"老唐定制"
+			],
+			[
+				"随机制造",
+				"随机制造指南书	(物品.lua)"
+			],
+			[
+				"让",
+				"让海啸席卷"
+			],
+			[
+				"140级",
+				"140级随机指南书"
+			],
+			[
+				"坐骑",
+				"坐骑内丹"
+			],
+			[
+				"宝石镶嵌",
+				"宝石镶嵌处理"
+			],
+			[
+				"宝石合成",
+				"宝石合成处理"
+			],
+			[
+				"Q_取随机",
+				"Q_取随机渡劫武器	(共用.lua)"
+			],
+			[
+				"进阶",
+				"进阶龙龟"
+			],
+			[
+				"武器染色",
+				"武器染色组"
+			],
+			[
+				"取渡劫",
+				"取渡劫任务	(任务处理类.lua)"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"梦幻粉",
+				"梦幻粉丝	(战斗处理类.lua)"
+			],
+			[
+				"VIP",
+				"VIP数据"
+			],
+			[
+				"VIP1",
+				"VIP1状态"
+			],
+			[
+				"V",
+				"VIP定制	(main.lua)"
+			],
+			[
+				"os",
+				"os.exit	([code])"
+			],
+			[
+				"初级",
+				"初级神魂丹	(道具处理类.lua)"
+			],
+			[
+				"elseif",
+				"elseif	elseif cond then"
+			],
+			[
+				"fo",
+				"for	for i=1,10"
+			],
+			[
+				"取车迟",
+				"取车迟斗法三清信息"
+			],
+			[
+				"设置车迟",
+				"设置车迟斗法副本	(道具处理类.lua)"
+			],
+			[
+				"帮派竞赛",
+				"帮派竞赛开关1"
+			],
+			[
+				"f",
+				"fori	for i,v in ipairs()"
+			],
+			[
+				"取随机",
+				"取随机数(1,#wb"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"刷出",
+				"刷出摩羯座	(任务处理类.lua)"
+			],
+			[
+				"统计",
+				"统计英雄大会排行榜"
+			],
+			[
+				"取地图",
+				"取门派巡逻地图	(地图处理类.lua)"
+			],
+			[
+				"local",
+				"local"
+			],
+			[
+				"我要领取",
+				"我要领取比赛奖励	(对话内容.lua)"
+			],
+			[
+				"交纳",
+				"交纳报名费用"
+			],
+			[
+				"取武器",
+				"取武器类型"
+			],
+			[
+				"随机160级本角色使用武器",
+				"随机160级本角色使用武器。"
+			],
+			[
+				"随机160",
+				"随机160级本角色使用装备，属性偏高。"
+			],
+			[
+				"读",
+				"读csv数据	(共用.lua)"
+			],
+			[
+				"取高级",
+				"取高级要诀	(道具处理类.lua)"
+			],
+			[
+				"Q_",
+				"Q_随机烹饪"
+			],
+			[
+				"开启飞升",
+				"开启飞升化生推荐	(对话内容.lua)"
+			],
+			[
+				"法术修炼",
+				"法术修炼*0"
+			],
+			[
+				"你",
+				"你没有那么多的银子"
+			],
+			[
+				"坐骑染色",
+				"坐骑染色处理"
+			],
+			[
+				"好的，我",
+				"好的，我这就去	(对话内容.lua)"
+			],
+			[
+				"天眼",
+				"天眼通符	(商城处理类.lua)"
+			],
+			[
+				"物品",
+				"物品奖励系数"
+			],
+			[
+				"ese",
+				"else"
+			],
+			[
+				"封印",
+				"封印必中"
+			],
+			[
+				"命中",
+				"命中-攻击方"
+			],
+			[
+				"法术",
+				"法术技能特效	(main.lua)"
+			],
+			[
+				"取法宝",
+				"取指定法宝境界"
+			],
+			[
+				"取经脉",
+				"取奇经八脉是否有"
+			],
+			[
+				"取单个",
+				"取单个友方目标"
+			],
+			[
+				"洗点",
+				"洗点处理	(召唤兽处理类.lua)"
+			],
+			[
+				"开关",
+				"开启门派闯关"
+			],
+			[
+				"传送长安",
+				"传送长安城"
+			],
+			[
+				"取队伍最低",
+				"取队伍最低等级	(共用.lua)"
+			],
+			[
+				"取队伍最高等级",
+				"取队伍最高等级数	(共用.lua)"
+			],
+			[
+				"取等级",
+				"取等级怪"
+			],
+			[
+				"100级",
+				"100级装备礼包	(商城处理类.lua)"
+			],
+			[
+				"60级",
+				"60级随机灵饰指南书"
+			],
+			[
+				"玄武",
+				"玄武石	(物品.lua)"
+			],
+			[
+				"二级符石",
+				"二级未激活符石	(商城处理类.lua)"
+			],
+			[
+				"二级",
+				"二级未激活符石	(商城处理类.lua)"
+			],
+			[
+				"商品",
+				"商品棉布"
+			],
+			[
+				"特性",
+				"特性几率	(宠物.lua)"
+			],
+			[
+				"清灵净瓶",
+				"清灵净瓶处理"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"loca",
+				"local"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"凝神",
+				"凝神决	(装备处理类.lua)"
+			],
+			[
+				"灵饰",
+				"灵饰属性"
+			],
+			[
+				"elsif",
+				"elseif"
+			],
+			[
+				"esle",
+				"else"
+			],
+			[
+				"体力",
+				"体力资质	(商城处理类.lua)"
+			],
+			[
+				"符石",
+				"符石道人	(对话内容.lua)"
+			],
+			[
+				"师傅",
+				"师傅领进门，修行在个人。本门法术之精妙还望各位多多领悟。"
+			],
+			[
+				"我只是",
+				"我只是来看看"
+			],
+			[
+				"添加",
+				"添加最后对话"
+			],
+			[
+				"栗",
+				"栗栗娘"
+			],
+			[
+				"既然",
+				"既然如此，就留你一条活路"
+			],
+			[
+				"table",
+				"table.print	(gge)"
+			],
+			[
+				"进入",
+				"进入战斗玩家id"
+			],
+			[
+				"请",
+				"请接收物资"
+			],
+			[
+				"Q",
+				"Q_门派编号	(任务处理类.lua)"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"写",
+				"写出文件	(main.lua)"
+			],
+			[
+				"r",
+				"return	return 返回"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 30041,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/角色处理类/孩子系统.lua",
+			"settings":
+			{
+				"buffer_size": 34196,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/系统处理类/系统处理类.lua",
+			"settings":
+			{
+				"buffer_size": 80073,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 76 files for \"道具.txt\"\n\nD:\\梦幻粉\\Server\\Script\\系统处理类\\系统处理类.lua:\n  421      发送角色信息.角色数据 = table.loadstring(读入文件([[data/]]..藏宝阁数据.角色[编号].角色信息.账号..[[/]]..藏宝阁数据.角色[编号].所有者..[[/角色.txt]]))\n  422      发送角色信息.召唤兽数据 = table.loadstring(读入文件([[data/]]..藏宝阁数据.角色[编号].角色信息.账号..[[/]]..藏宝阁数据.角色[编号].所有者..[[/召唤兽.txt]]))\n  423:     local 道具数据 = table.loadstring(读入文件([[data/]]..藏宝阁数据.角色[编号].角色信息.账号..[[/]]..藏宝阁数据.角色[编号].所有者..[[/道具.txt]]))\n  424      发送角色信息.装备数据 = {}\n  425      for i=1,6 do\n  ...\n 1867      self.还原数据=table.loadstring(self.读取文件)\n 1868      if self.还原数据.装备[3]~=nil or self.还原数据.锦衣~=nil then\n 1869:       local 临时文件=读入文件([[data/]]..账号..[[/]]..self.写入信息[n]..[[/道具.txt]])\n 1870        local 临时道具=table.loadstring(临时文件)\n 1871        if self.还原数据.装备[3]~=nil then\n\nD:\\梦幻粉\\Server\\Script\\角色处理类\\角色处理类.lua:\n 1961    写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/角色.txt\",table.tostring(self.数据))\n 1962    if 玩家数据[self.数据.数字id]==nil then\n 1963:     写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/道具.txt\",table.tostring({}))\n 1964      写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/召唤兽.txt\",table.tostring({}))\n 1965      写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/助战.txt\",table.tostring({}))\n 1966      写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/孩子.txt\",table.tostring({}))\n 1967    else\n 1968:     写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/道具.txt\",table.tostring(玩家数据[self.数据.数字id].道具.数据))\n 1969      写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/召唤兽.txt\",table.tostring(玩家数据[self.数据.数字id].召唤兽:取存档数据()))\n 1970      写出文件([[data/]]..self.数据.账号..[[/]]..self.数据.数字id..\"/助战.txt\",table.tostring(玩家数据[self.数据.数字id].助战:取数据()))\n\nD:\\梦幻粉\\Server\\Script\\角色处理类\\道具处理类.lua:\n 7676  function 道具处理类:加载数据(账号,数字id)\n 7677    self.数字id=数字id\n 7678:   self.数据=table.loadstring(读入文件([[data/]]..账号..[[/]]..数字id..[[/道具.txt]]))\n 7679    for n, v in pairs(self.数据) do\n 7680      if self.数据[n].名称==nil then\n\n5 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 1941,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Script/角色处理类/角色处理类.lua",
+			"settings":
+			{
+				"buffer_size": 400704,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/对话处理类/对话内容.lua",
+			"settings":
+			{
+				"buffer_size": 175106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/地图处理类/地图处理类.lua",
+			"settings":
+			{
+				"buffer_size": 41709,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/对话处理类/对话处理.lua",
+			"settings":
+			{
+				"buffer_size": 250166,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/系统处理类/任务处理类.lua",
+			"settings":
+			{
+				"buffer_size": 437782,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/对话处理类/单位对话.lua",
+			"settings":
+			{
+				"buffer_size": 33953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/对话处理类/活动对话.lua",
+			"settings":
+			{
+				"buffer_size": 52483,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/战斗处理类/战斗准备类.lua",
+			"settings":
+			{
+				"buffer_size": 251281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/战斗处理类/战斗处理类.lua",
+			"settings":
+			{
+				"buffer_size": 585648,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/角色处理类/道具处理类.lua",
+			"settings":
+			{
+				"buffer_size": 260700,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/商店处理类/商城处理类.lua",
+			"settings":
+			{
+				"buffer_size": 57601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/数据中心/场景NPC.lua",
+			"settings":
+			{
+				"buffer_size": 75725,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/数据中心/传送圈位置.lua",
+			"settings":
+			{
+				"buffer_size": 16951,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Script/数据中心/传送位置.lua",
+			"settings":
+			{
+				"buffer_size": 46891,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Lua/ggeserver.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/D/梦幻粉/Server/Script/数据中心/场景名称.lua",
+		"/D/梦幻粉/Server/Script/数据中心/取经验.lua",
+		"/D/梦幻粉/Server/Script/系统处理类/聊天处理类.lua",
+		"/D/梦幻粉/Server/Script/系统处理类/共用.lua",
+		"/D/梦幻粉/Server/Script/角色处理类/道具处理类.lua",
+		"/D/梦幻粉/Server/script/对话处理类/对话处理",
+		"/D/梦幻粉/Server/Script/商店处理类/商店处理类.lua",
+		"/D/梦幻粉/Server/main.lua",
+		"/D/梦幻粉/Server/Script/数据中心/宝宝.lua",
+		"/D/梦幻粉/Server/Script/属性控制/宠物.lua",
+		"/D/梦幻粉/Server/Script/系统处理类/系统处理类.lua",
+		"/D/梦幻粉/Server/Script/角色处理类/角色处理类.lua",
+		"/D/梦幻粉/Server/Script/地图处理类/地图处理类.lua",
+		"/D/梦幻粉/Server/Script/数据中心/物品.lua",
+		"/D/梦幻粉/Server/Script/角色处理类/召唤兽处理类.lua",
+		"/D/梦幻粉/Server/Script/角色处理类/装备处理类.lua",
+		"/D/梦幻粉/Server/Script/数据中心/法术技能特效.lua",
+		"/D/梦幻粉/Server/Script/角色处理类/内存类_物品.lua",
+		"/D/梦幻粉/Server/Script/战斗处理类/战斗处理类.lua",
+		"/D/梦幻粉/Server/Script/商店处理类/商城处理类.lua",
+		"/D/梦幻粉/Server/Script/数据中心/商城神兽.lua",
+		"/F/18门派整合/Server/Script/数据中心/商城神兽.lua",
+		"/F/18门派整合/Server/Script/角色处理类/内存类_物品.lua",
+		"/F/下载/最新飞蛾藏宝阁/飞蛾全套源码/Server/Script/系统处理类/系统处理类.lua",
+		"/F/乐在其中专属服/Server/data/1111111/消费记录.txt",
+		"/F/乐在其中专属服/Server/Script/数据中心/场景NPC.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/场景名称.lua",
+		"/F/乐在其中专属服/Server/Script/地图处理类/地图处理类.lua",
+		"/F/乐在其中专属服/Server/data/zxc111/账号信息.txt",
+		"/F/乐在其中专属服/Server/Script/对话处理类/对话内容.lua",
+		"/F/乐在其中专属服/Server/Script/对话处理类/对话处理.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/道具处理类.lua",
+		"/F/乐在其中专属服/Server/Script/商店处理类/商城处理类.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/法术技能特效.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/装备处理类.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/召唤兽处理类.lua",
+		"/F/乐在其中专属服/Server/Script/战斗处理类/战斗处理类.lua",
+		"/F/乐在其中专属服/Server/Script/战斗处理类/战斗准备类.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/任务处理类.lua",
+		"/F/乐在其中专属服/Server/Script/对话处理类/单位对话.lua",
+		"/F/乐在其中专属服/Server/Script/对话处理类/活动对话.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/物品.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/系统处理类.lua",
+		"/F/乐在其中专属服/Server/Script/ggebuf.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/聊天处理类.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/共用.lua",
+		"/F/乐在其中专属服/Server/data/zxc111/消费记录.txt",
+		"/F/乐在其中专属服/Server/Script/系统处理类/网络处理类.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/助战系统.lua",
+		"/C/Users/fengzi/Desktop/18门派/法术技能特效.lua",
+		"/C/Users/fengzi/Desktop/2020.6.07_风云优化版本_假人摆摊_假人喊话_假人跑动_假人战斗/Script/角色处理类/道具处理类.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/宝宝.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/内存类_物品.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/ChatDb.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BotManager.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BotCtrl.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BoothCtrl.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BoothBotBiz.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BBTableBiz.lua",
+		"/C/Users/fengzi/Desktop/2020.6.07_风云优化版本_假人摆摊_假人喊话_假人跑动_假人战斗/main.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BotBiz.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/Rar$DIa0.991/main.lua",
+		"/C/Users/fengzi/Desktop/公开版_风云版本_假人(摆摊,购买,跑动,喊话,组队,战斗)/Script/角色处理类/道具处理类.lua",
+		"/C/Users/fengzi/Desktop/公开版_风云版本_假人(摆摊,购买,跑动,喊话,组队,战斗)/Script/地图处理类/地图处理类.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BotDb.lua",
+		"/F/乐在其中专属服/Server/Script/Bot/BoothDb.lua",
+		"/F/乐在其中专属服/Server/Script/假人类/BoothBot.lua",
+		"/C/Users/fengzi/Desktop/公开版_风云版本_假人(摆摊,购买,跑动,喊话,组队,战斗)/main.lua",
+		"/F/乐在其中专属服/Server/摆摊假人.txt",
+		"/D/下载/飞蛾版本/Server/Script/假人类/BoothBot.lua",
+		"/D/下载/飞蛾版本/Server/Script/Bot/ChatCtrl.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.757.2931/HZ$D.757.2932/main.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.462.3470/HZ$D.462.3472/main.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.462.3470/HZ$D.462.3473/Script/假人类/BoothBot.lua",
+		"/C/Users/fengzi/AppData/Local/Temp/HZ$D.462.3470/HZ$D.462.3471/Script/角色处理类/道具处理类.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/帮派处理类.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/游戏活动类.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/取经验.lua",
+		"/F/乐在其中专属服/Server/Script/角色处理类/角色处理类.lua",
+		"/F/乐在其中专属服/Server/Script/数据中心/野怪.lua",
+		"/F/下载/FE源码/客户端源码/script/初系统/分区.lua",
+		"/F/乐在其中专属服/gge/Core/Server/ggefunction.lua",
+		"/F/乐在其中专属服/Server/Script/对话处理类/商业对话.lua",
+		"/F/乐在其中专属服/Server/Script/商店处理类/商店处理类.lua",
+		"/F/乐在其中专属服/Server/Script/系统处理类/管理工具类.lua",
+		"/F/乐在其中专属服/Server/data/guodan0/账号信息.txt",
+		"/E/参考学习-飞蛾/Server/data/杀杀毒",
+		"/E/参考学习-飞蛾/Server/data/zxc111/账号信息.txt",
+		"/E/参考学习-飞蛾/Server/定制难度.ini",
+		"/E/参考学习-飞蛾/Server/Script/商店处理类/商城处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/道具处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/角色处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/对话处理.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/活动对话.lua",
+		"/E/参考学习-飞蛾/Server/Script/地图处理类/MAP.lua",
+		"/E/参考学习-飞蛾/Server/Script/地图处理类/地图处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/地图处理类/地图坐标类.lua",
+		"/E/参考学习-飞蛾/Server/Script/文件类.lua",
+		"/E/参考学习-飞蛾/Server/Script/ggebuf.lua",
+		"/E/参考学习-飞蛾/Server/data/a1234588/4000134/召唤兽.txt",
+		"/E/参考学习-飞蛾/gge/Extend/文件类.lua",
+		"/E/参考学习-飞蛾/gge/Core/Game/文件类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/装备处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/ggeserver.lua",
+		"/E/参考学习-飞蛾/Server/Script/战斗处理类/战斗处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/管理工具类.lua",
+		"/E/参考学习-飞蛾/Server/Script/属性控制/坐骑.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/助战系统.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/内存类_物品.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/技能类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/礼包奖励类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/符石组合类.lua",
+		"/E/参考学习-飞蛾/Server/Script/角色处理类/队伍处理类.lua",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/宝宝.lua",
+		"/E/参考学习-飞蛾/Server/Script/地图处理类/路径类.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/任务处理类.lua",
+		"/E/参考学习-飞蛾/Server/配置文件.ini",
+		"/E/参考学习-飞蛾/Server/自定义配置.ini",
+		"/E/参考学习-飞蛾/Server/Shopping.ini",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/取师门.lua",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/场景NPC.lua",
+		"/E/参考学习-飞蛾/Server/data/a1234588/4000134/角色.txt",
+		"/E/参考学习-飞蛾/Server/data/a1234588/账号信息.txt",
+		"/E/参考学习-飞蛾/Server/data/a1234588/消费记录.txt",
+		"/E/参考学习-飞蛾/Server/data/a1234588/信息.txt",
+		"/E/参考学习-飞蛾/Server/Script/数据中心/场景名称.lua",
+		"/E/参考学习-飞蛾/Server/Script/系统处理类/共用.lua",
+		"/E/参考学习-飞蛾/Server/Script/对话处理类/初始.lua"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\梦幻粉\\Server\\Script",
+			"F:\\18门派整合\\Server\\Script",
+			"F:\\乐在其中专属服\\Server\\Script",
+			"D:\\下载\\飞蛾版本\\Server\\Script",
+			"F:\\乐在其中专属服\\Server\\Script",
+			"E:\\参考学习-飞蛾\\Server\\Script",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\data\\a1234588\\4000135\\道具.txt",
+			"E:\\Server\\Script",
+			"E:\\Server\\data\\a1234588\\4000134\\角色.txt",
+			"E:\\Server\\Script",
+			"E:\\Server\\scene",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\数据中心",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\角色处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server\\Script\\对话处理类",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"E:\\Server",
+			"E:\\Server\\Script",
+			"F:\\飞蛾源码\\Server\\Script"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"进入游戏",
+			"文件是否存在",
+			"进入游戏",
+			"道具.txt",
+			"100179",
+			"地狱迷宫四层",
+			"保存系统数据",
+			"花果山",
+			"高级宠物口粮",
+			"阿紫",
+			"金琉璃碎片",
+			"白琉璃盏碎片",
+			"金琉璃盏碎片",
+			"天兵飞剑",
+			"大战心魔",
+			"寻找四琉璃.完成",
+			"大战心魔",
+			"玩家数据[self.进入战斗玩家id].队伍",
+			"少女的手镯",
+			"名次",
+			"药店老板",
+			"100157",
+			"青龙任务",
+			"100114",
+			"100156",
+			"8800",
+			"渡劫.进程==8",
+			"渡劫.进程",
+			"渡劫.进程=1",
+			"渡劫.进程",
+			"渡劫.进程=9",
+			"渡劫.进程=8",
+			"渡劫.进程=7",
+			"渡劫.进程=5",
+			"渡劫.进程=3",
+			"渡劫.进程",
+			"剧情数据.渡劫.进行[数字id]",
+			"渡劫任务",
+			"渡劫剧情",
+			"渡劫飞升",
+			"数字id",
+			"设置渡劫任务",
+			"渡劫飞升",
+			"渡劫",
+			"剧情点",
+			"剧情数据",
+			"等级上限",
+			"数据.数字id",
+			"id",
+			"升级处理",
+			"等级上限",
+			"飞升",
+			"等级上限",
+			"玩家数据[数字id].连接id",
+			"升级处理",
+			"等级上限",
+			"取灵力伤害",
+			"取灵力",
+			"取灵力差",
+			"善恶有报",
+			"套装",
+			"定风珠",
+			"浪涌",
+			"定风珠",
+			"飞升",
+			"等级上限",
+			"提升等级",
+			"查看商会商铺信息",
+			"查看商会",
+			"渡劫",
+			"100054",
+			"吴刚",
+			"飞升剧情",
+			"取消任务",
+			"吴刚",
+			"玩家id",
+			"我准备好要破阵法了",
+			"玉皇大帝",
+			"名称=",
+			"名次",
+			"商人的鬼魂",
+			"100054",
+			"完成渡劫",
+			"飞升.飞升",
+			"吴刚",
+			"飞升",
+			"胜利id",
+			"化境",
+			"完成渡劫",
+			"100054",
+			"完成飞升",
+			"100090",
+			"完成飞升",
+			"飞升",
+			"剧情数据[数字id].渡劫",
+			"剧情数据.渡劫.进行[数字id].进程",
+			"渡劫",
+			"剧情数据.渡劫.进行[id].进程",
+			"妄空妖魔",
+			"飞升任务给予武器",
+			"剧情数据.渡劫.进行[玩家id].进程",
+			"100085",
+			"100090",
+			"角色转换成功并重置属性点，请重新登陆！",
+			"人物洗点",
+			"等级上限",
+			"是否飞升",
+			"飞升技能检测",
+			"相府",
+			"玄奘的身世.完成=true",
+			"枯萎的金莲.完成=true",
+			"BotManager",
+			"挂机添加",
+			"仙玉",
+			"挂机添加仙玉",
+			"仙玉",
+			"增加仙玉",
+			"#Y恭喜你，完成了",
+			"赵美人",
+			"1001",
+			"渔翁",
+			".角色:给予道具",
+			"找到餐风饮露了",
+			"玄奘的身世餐风饮露",
+			"定神香",
+			"临时数据",
+			"藏宝阁更新",
+			"任务数据"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"楚依恋",
+			"涂山雪",
+			"水陆",
+			"水陆大会",
+			"东海龙王",
+			"炼兽真经",
+			"{活跃度=0,领取100活跃=false,领取200活跃=false,领取300活跃=false,领取400活跃=false,领取500活跃=false,师门次数=20,官职次数=30,鬼怪次数=25,封妖次数=3,游泳次数=1,镖王次数=1,押镖次数=50,水果次数=25,天庭叛逆次数=25,十二星宿次数=5,门派闯关次数=1,地煞星次数=5,天罡星次数=5,飞贼次数=5,知了先锋=20,小知了王=20,知了王=10,世界BOSS次数=2,抓鬼次数=50,初出江湖次数=20,帮派青龙次数=100,帮派玄武次数=100,妖王次数=3}",
+			"歧黄之术",
+			"铜砂丹",
+			"银砂丹",
+			"金砂丹",
+			"天冷曰妄空",
+			"空度禅师",
+			"程咬金",
+			"水兵",
+			"追忆情缘",
+			"角色.数据.捉鬼次数",
+			"{活跃度=0,领取100活跃=false,领取200活跃=false,领取300活跃=false,领取400活跃=false,领取500活跃=false,师门次数=20,官职次数=30,鬼怪次数=25,封妖次数=3,游泳次数=1,镖王次数=1,押镖次数=50,水果次数=25,副本次数=1,地煞星次数=5,天罡星次数=5,迷宫次数=1,世界BOSS次数=2,抓鬼次数=50}",
+			"活跃数据[id]={活跃度=0,领取100活跃=false,领取200活跃=false,领取300活跃=false,领取400活跃=false,领取500活跃=false,师门次数=20,官职次数=30,鬼怪次数=25,封妖次数=3,游泳次数=1,镖王次数=1,押镖次数=50,水果次数=25,副本次数=1,地煞星次数=5,天罡星次数=5,迷宫次数=1,世界BOSS次数=2,抓鬼次数=50}",
+			"账号",
+			"魔兽之印",
+			"角色.数据.跑商",
+			"汗血宝马",
+			"妖魔亲信",
+			"冠状病毒",
+			"玩家数据[数字id].角色.跑商",
+			"汗血宝马",
+			"\\n",
+			"取随机数",
+			"帮派机关人",
+			"幽萤娃娃",
+			"华风汉雅",
+			"高级夜战",
+			"凝神诀",
+			"if 玩家数据[数字id].角色.门派 == \"无\" or 玩家数据[数字id].角色.门派 == \"无门派\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3052,
+								3052
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								49,
+								50,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 102,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1494.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Script/角色处理类/孩子系统.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								10,
+								11,
+								9,
+								34,
+								52,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 0,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Script/系统处理类/系统处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52432,
+								52571
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 1498,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1941,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										418,
+										424
+									],
+									[
+										665,
+										671
+									],
+									[
+										999,
+										1005
+									],
+									[
+										1374,
+										1380
+									],
+									[
+										1827,
+										1833
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1002,
+								1002
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"detect_indentation": false,
+							"function_name_status_row": 18,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Script/角色处理类/角色处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 400704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60240,
+								60318
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 1965,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Script/对话处理类/对话内容.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								8,
+								11,
+								21,
+								0,
+								58,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 4593,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 148.0,
+						"translation.y": 86360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Script/地图处理类/地图处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14305,
+								14311
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 444,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 23010.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Script/对话处理类/对话处理.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								8,
+								11,
+								21,
+								0,
+								58,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 6490,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 122403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Script/系统处理类/任务处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437782,
+								437782
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 13047,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 247021.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Script/对话处理类/单位对话.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31683,
+								31688
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 1048,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19476.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Script/对话处理类/活动对话.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50397,
+								50402
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 1293,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Script/战斗处理类/战斗准备类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251281,
+								251281
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 12051,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228097.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Script/战斗处理类/战斗处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 11983,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 227147.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Script/角色处理类/道具处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 2841,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51989.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Script/商店处理类/商城处理类.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 37,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Script/数据中心/场景NPC.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75725,
+								75725
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 831,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 14917.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "Script/数据中心/传送圈位置.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10858,
+								10858
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 329,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5731.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "Script/数据中心/传送位置.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15799,
+								15724
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								228,
+								9,
+								19,
+								9,
+								51,
+								7,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"function_name_status_row": 801,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 14623.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 344.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Lua/ggeserver.sublime-build",
+	"project": "服务端.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

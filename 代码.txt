@@ -1,0 +1,128 @@
+function 战斗准备类:创建战斗(玩家id,序号,任务id,地图)
+
+ local 临时id=玩家id..os.time()..取随机数(1,999999)
+ 临时id=临时id+0
+
+ 玩家数据[玩家id].战斗=临时id
+  if 玩家数据[玩家id].队伍==0 then
+       玩家数据[玩家id].角色.战斗开关=true
+       地图处理类:设置战斗开关(玩家id,true)
+    else
+
+     for n=1,#队伍数据[玩家数据[玩家id].队伍].成员数据 do
+
+       if 玩家数据[队伍数据[玩家数据[玩家id].队伍].成员数据[n]].队伍==玩家数据[玩家id].队伍 then
+          玩家数据[队伍数据[玩家数据[玩家id].队伍].成员数据[n]].战斗=临时id
+          玩家数据[队伍数据[玩家数据[玩家id].队伍].成员数据[n]].角色.战斗开关=true
+          地图处理类:设置战斗开关(队伍数据[玩家数据[玩家id].队伍].成员数据[n],true)
+
+         end
+
+
+
+
+     	 end
+
+
+  	 end
+
+
+ self.战斗盒子[临时id]=战斗处理类.创建()
+
+ if 序号==100001 or 序号==100007 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,地图)
+    elseif 序号==100002 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取宝图强盗信息(任务id,玩家id))
+    elseif 序号==100003 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取宝图遇怪信息(任务id,玩家id))
+    elseif 序号==100004 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取封妖任务信息(任务id,玩家id))
+    elseif 序号==100005 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取幼儿园信息(任务id,玩家id))
+    elseif 序号==100006 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取科举闯关信息(任务id,玩家id))
+    elseif 序号==100008 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取捉鬼任务信息(任务id,玩家id))
+    elseif 序号==100009 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取星宿任务信息(任务id,玩家id))
+    elseif 序号==100010 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取妖魔鬼怪信息(任务id,玩家id))
+    elseif 序号==100011 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取门派闯关信息(任务id,玩家id))
+    elseif 序号==100012 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取游泳水妖信息(任务id,玩家id))
+    elseif 序号==100013 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取官职流氓信息(任务id,玩家id))
+    elseif 序号==100014 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取官职巡逻信息(任务id,玩家id))
+    elseif 序号==100015 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取门派巡逻信息(任务id,玩家id))
+    elseif 序号==100016 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取门派示威信息(任务id,玩家id))
+    elseif 序号==100017 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取门派支援信息(任务id,玩家id))
+    elseif 序号==100018 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取门派乾坤袋信息(任务id,玩家id))
+    elseif 序号==100019 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取迷宫小怪信息(任务id,玩家id))
+    elseif 序号==100020 then
+     if 任务数据[任务id].模型=="炎魔神" then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取妖王炎魔神(任务id,玩家id))
+     elseif 任务数据[任务id].模型=="鬼将" then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取妖王鬼将(任务id,玩家id))
+     elseif 任务数据[任务id].模型=="净瓶女娲" then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取妖王净瓶女娲(任务id,玩家id))
+       end
+   elseif 序号==100021 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取江湖大盗信息(任务id,玩家id))
+   elseif 序号==100022 then
+     if 任务数据[任务id].分类==1 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取毛贼信息(任务id,玩家id))
+     elseif 任务数据[任务id].分类==2 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取销赃贼信息(任务id,玩家id))
+     elseif 任务数据[任务id].分类==3 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取宝贼信息(任务id,玩家id))
+     elseif 任务数据[任务id].分类==4 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取盗贼首领信息(任务id,玩家id))
+
+
+        end
+    elseif 序号==100023 then
+     self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取皇宫贼王信息(任务id,玩家id))
+
+    elseif 序号==100024 then
+      if 任务数据[任务id].等级==60 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取60级地煞信息(任务id,玩家id))
+     elseif 任务数据[任务id].等级==100 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取100级地煞信息(任务id,玩家id))
+     elseif 任务数据[任务id].等级==140 then
+       self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取140级地煞信息(任务id,玩家id))
+
+
+        end
+    elseif 序号==100025 then
+      local 随机序列=取随机数(1,#任务数据[任务id].完成)
+      local 战斗序列=任务数据[任务id].完成[随机序列]
+      任务数据[任务id].战斗序列=随机序列
+       print(随机序列,战斗序列,#任务数据[任务id].完成)
+       if 战斗序列==1 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息1(任务id,玩家id))
+       elseif 战斗序列==2 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息2(任务id,玩家id))
+       elseif 战斗序列==3 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息3(任务id,玩家id))
+       elseif 战斗序列==4 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息4(任务id,玩家id))
+       elseif 战斗序列==5 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息5(任务id,玩家id))
+       elseif 战斗序列==6 then
+         self.战斗盒子[临时id]:进入战斗(玩家id,序号,任务id,self:取镖王信息6(任务id,玩家id))
+
+         end
+
+
+
+
+   end
+
+ end
