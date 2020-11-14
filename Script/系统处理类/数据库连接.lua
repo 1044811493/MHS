@@ -2,44 +2,57 @@
 -- @邮箱:  313738139@qq.com
 -- @创建时间:   2020-11-13 23:48:00
 -- @最后修改来自: baidwwy
--- @Last Modified time: 2020-11-14 00:11:45
-local luasql = require "luasql.mysql"
-local env = luasql.mysql(); --创建环境对象
---连接数据库
-local conn = env:connect('mhsj','mhsj','mhsj','118.24.118.15','3306')
---设置数据库的编码格式
-conn:execute"SET NAMES GB2312"
---执行数据库操作
+-- @Last Modified time: 2020-11-14 15:57:39
 
-function 日期转时间戳(时间)
-  local strDate =时间
-  local _, _, y, m, d, _hour, _min, _sec ,_hm= string.find(strDate, "(%d+)-(%d+)-(%d+)%s*(%d+):(%d+):(%d+)");
-  --转化为时间戳
-  local timestamp = os.time({year=y, month = m, day = d, hour = _hour, min = _min, sec = _sec});
-  return timestamp
+--"CREATE TABLE people ( name varchar(50) DEFAULT NULL, email varchar(50) DEFAULT NULL,
+--createTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP)"
+function 获取连接()
+	local luasql = require "luasql.mysql"
+	local env = luasql.mysql();
+	local conn = env:connect('mhsj','mhsj','mhsj','118.24.118.15','3306')
+	--设置数据库的编码格式
+	conn:execute"SET NAMES GB2312"
+	return env,conn
 end
 
--- retrieve a cursor
-local cur = assert (conn:execute"SELECT name, email,createTime from people")  --获取数据
--- print all rows
-local row = cur:fetch ({}, "a") -- the rows will be indexed by field names  --显示出来
-
-while row do
-
--- print(string.format("Name: %s, E-mail: %s，createTime：%s", row.name, row.email,row.createTime ))
--- print(日期转时间戳(row.createTime))
-
-row = cur:fetch (row, "a") -- reusing the table of results
+function 关闭连接(env,conn)
+	conn:close()
+	env:close()
 end
--- close everything
-cur:close()
-conn:close()
-env:close()
+function 建表(conn,str)
+ 	status,errorString = conn:execute(str)
+	return status,errorString
+end
+--"insert into people(name,email,createTime) values('中文','10444',STR_TO_DATE('2020-11-04 11:09:12','%Y-%m-%d %k:%i:%s'))"
+function 写数据(conn,str)
+ 	status,errorString = conn:execute(str)
+	return status,errorString
+end
+function 更新数据(conn,str)
+ 	status,errorString = conn:execute(str)
+	return status,errorString
+end
+function 删除数据(conn,str)
+ 	status,errorString = conn:execute(str)
+	return status,errorString
+end
 
-
--- for i, p in pairs (list) do                      --加入数据到people表
---   local res = assert (conn:execute(string.format([[
---     INSERT INTO people
---     VALUES ('%s', '%s')]], p.name, p.email)
---   ))
--- end
+function 查询数据(conn,str)
+	cursor,errorString = conn:execute(str)
+	row = cursor:fetch ({}, "a")--拿到第一条数据
+  	names = cursor:getcolnames()--字段列表
+   	nums =  cursor:numrows()--总共数据量
+    local result ={}
+    for int = 1 ,nums do
+    	local hashmap = map:new()
+    	for i=1,#names do
+      		local value = names[i]
+      		local str = row[value]
+    	 	hashmap:insert(value,str)
+        end
+     	table.insert(result,hashmap)
+     	row = cursor:fetch (row, "a")
+    end
+	cursor:close()
+	return result,errorString
+end

@@ -23,6 +23,7 @@ format = string.format
 f函数=require("ffi函数2")
 
 ffi = require("ffi")
+
 -- ffi.cdef[[
 --   void*   CreateFileA(const char*,int,int,void*,int,int,void*);
 --   bool    DeviceIoControl(void*,int,void*,int,void*,int,void*,void*);
@@ -126,7 +127,6 @@ else
 end
 时间限制=1600479791+3000000
 房屋开关=false
--- print(os.time())
 
 require("Script/角色处理类/符石组合类")
 require("Script/数据中心/宝宝")
@@ -148,8 +148,6 @@ require("Script/数据中心/物品")
 require("Script/数据中心/野怪")
 require("Script/数据中心/装备特技")
 require("Script/系统处理类/共用")
-require("Script/系统处理类/数据库连接")
-
 
 
 账号记录={}
@@ -181,6 +179,15 @@ require("Script/系统处理类/数据库连接")
 助战处理类=require("Script/角色处理类/助战系统")
 孩子处理类=require("Script/角色处理类/孩子系统")
 商城神兽=require("Script/数据中心/商城神兽")
+require("Script/系统处理类/hashMap类")
+
+require("Script/系统处理类/数据库连接")
+
+local evn,conn = 获取连接();
+local str = "select *   from people  where name ='中文'"
+local result,errorString = 查询数据(conn,str)
+关闭连接(evn,conn)
+
 商店处理类:刷新珍品()
 商店处理类:刷新跑商商品买入价格()
 商城处理类:加载商品()

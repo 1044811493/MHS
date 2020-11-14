@@ -538,7 +538,13 @@ function 取年月日()
   return  os.date("%Y", 时间).."年"..os.date("%m", 时间).."月"..os.date("%d", 时间).."日 "
 end
 
-
+function 日期转时间戳(时间)
+  local strDate =时间
+  local _, _, y, m, d, _hour, _min, _sec ,_hm= string.find(strDate, "(%d+)-(%d+)-(%d+)%s*(%d+):(%d+):(%d+)");
+  --转化为时间戳
+  local timestamp = os.time({year=y, month = m, day = d, hour = _hour, min = _min, sec = _sec});
+  return timestamp
+end
 
 function 强制下线()
   for n, v in pairs(战斗准备类.战斗盒子) do

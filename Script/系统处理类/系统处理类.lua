@@ -1803,12 +1803,10 @@ function 系统处理类:进入事件(id,连接id)
     end
   end
 end
+--此处进行账号验证
 
 function 系统处理类:账号验证(id,序号,内容)
-  table.print(内容)
   local acc = 内容.账号
-  print(acc)
-  --select account,password from  project_mhxy_account where account =?
     local luasql = require "luasql.mysql"
     local env = luasql.mysql(); --创建环境对象
     --连接数据库
@@ -1816,8 +1814,6 @@ function 系统处理类:账号验证(id,序号,内容)
     --设置数据库的编码格式
     conn:execute"SET NAMES GB2312"
    local cur = assert(conn:execute("select account,password from  project_mhxy_account where account =  '"..acc.."'"));
-   -- local cur = assert (conn:execute"select account,password from  project_mhxy_account where account ="..acc)  --获取数据
-    -- print all rows
     local row = cur:fetch ({}, "a")
     if row==nil then
       发送数据(id,7,"#Y该账户未被注册！")
