@@ -2,7 +2,7 @@
 -- @邮箱:  313738139@qq.com
 -- @创建时间:   2015-03-29 06:28:13
 -- @最后修改来自: baidwwy
--- @Last Modified time: 2020-11-15 10:04:01
+-- @Last Modified time: 2020-03-15 20:08:53
 local __hpserver = require("__ggehpserver__")
 
 local ggesvr = class()
@@ -13,10 +13,10 @@ function ggesvr:初始化(a,b)
 	self._hp:Create(false,self)
 	self._sendbuf 	= require("Script/ggebuf")()
 	self._recbuf 	= require("Script/ggebuf")()
-	__gge.print(false,7,"-------------------------------------------------------------------------\n")
-	__gge.print(true,7,string.format("创建%s服务端		-->", b or a or ''))
-	__gge.print(false,10,"成功！\n")
-	__gge.print(false,7,"-------------------------------------------------------------------------\n")
+	--__gge.print(false,7,"-------------------------------------------------------------------------\n")
+	--__gge.print(true,7,string.format("创建%s服务端		-->", b or a or ''))
+	--__gge.print(false,10,"成功！\n")
+	--__gge.print(false,7,"-------------------------------------------------------------------------\n")
 end
 function ggesvr:置接收BUF(v)
 	self._recbuf = v
@@ -40,15 +40,7 @@ function ggesvr:置标题(str)
 	return self
 end
 function ggesvr:启动(ip,port)
-	if conn==nil then
-	    __gge.print(true,7,string.format("连接数据库		-->"))
-	    __gge.print(false,10,"失败！\n")
-	    self:停止()
-	else
-	    __gge.print(true,7,string.format("连接数据库		-->"))
-	    __gge.print(false,10,"成功！\n")
-	end
-	__gge.print(false,7,"-------------------------------------------------------------------------\n")
+	--__gge.print(false,7,"-------------------------------------------------------------------------\n")
 	__gge.print(true,7,string.format('服务端启动ip为："%s:%s"	-->', ip,port))
 	self._client 	= {}
 	if self._hp:Start(ip,port) == 0 then

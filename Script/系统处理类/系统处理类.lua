@@ -74,6 +74,8 @@ function 系统处理类:数据处理(id,序号,内容)
         写出文件([[tysj/名称数据.txt]],table.tostring(名称数据))
         临时角色=nil
         self:取角色选择信息(id,内容.账号)
+        -- self.临时数据=读入文件()
+        -- 服务端参数.id=服务端参数.id+1
       end
   elseif 序号==4 then --选择角色进入游戏
     self:进入游戏(id,内容.账号,内容.id,内容.ip)
@@ -1886,8 +1888,8 @@ function 系统处理类:创建账号(id,序号,内容)
           return
         end
       else
-        local result ,errorString =  获取账号(内容.账号)
-        if #result==0 then
+       local result ,errorString =  获取账号(内容.账号)
+       if #result==0 then
           --无账号
           local  insertStr ="INSERT INTO mhsj.project_mhxy_account(rowguid, account, password, ip_address) VALUES(replace(uuid(),'-',''), '"..内容.账号.."', '"..内容.密码.."', '"..内容.ip.."')"
           local status,errorString = 写数据(conn,insertStr)
@@ -1961,7 +1963,7 @@ function 系统处理类:取角色选择信息(id,账号)
         self.发送数据[n]={种族=resultJs[1].zhongzu,锦衣数据=锦衣数据,光环数据=光环数据,足迹数据=足迹数据,名称=resultJs[1].mingcheng,等级=resultJs[1].dengji,染色方案=0,染色组={0,0,0},造型=resultJs[1].zaoxing,武器数据=武器数据,门派=resultJs[1].menpai,id=resultJs[1].shuziid}
       end
     end
-    发送数据(id,4,self.发送数据)
+      发送数据(id,4,self.发送数据)
   end
 end
 
