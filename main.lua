@@ -1,10 +1,9 @@
-require("Script/系统处理类/hashMap类")
-require("Script/系统处理类/数据库连接")
-evn,conn = 获取连接();
-
 
 __S服务 = require("Script/ggeserver")()
 __S服务:置缓冲区大小(4096)
+require("Script/系统处理类/hashMap类")
+require("Script/系统处理类/数据库连接")
+evn,conn = 获取连接()
 随机序列=0
 错误日志={}
 __N连接数  = 0

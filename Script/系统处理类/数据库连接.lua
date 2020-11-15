@@ -2,7 +2,7 @@
 -- @邮箱:  313738139@qq.com
 -- @创建时间:   2020-11-13 23:48:00
 -- @最后修改来自: baidwwy
--- @Last Modified time: 2020-11-14 23:22:10
+-- @Last Modified time: 2020-11-15 10:03:34
 
 function 获取连接()
 	local luasql = require "luasql.mysql"
@@ -11,7 +11,7 @@ function 获取连接()
 	--设置数据库的编码格式
 	if conn == nil then
 	else
-    conn:execute"SET NAMES GBK"
+    	conn:execute"SET NAMES GBK"
 	end
 	return env,conn
 end
