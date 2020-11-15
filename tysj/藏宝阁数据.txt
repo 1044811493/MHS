@@ -1,1 +1,1 @@
-do local ret={其他={},角色={},灵饰={},召唤兽={},银两={},装备={}} return ret end
+do local ret={其他={},角色={},灵饰={},召唤兽={},装备={},银两={}} return ret end
